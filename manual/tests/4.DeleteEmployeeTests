@@ -1,0 +1,29 @@
+## Title: 
+Edit Employee tests
+
+## Description: 
+Test to verify that Employee details can be edited
+
+Scenario 4: Delete Employee  
+GIVEN an Employer  
+AND I am on the Benefits Dashboard page  
+WHEN I click the Action X  
+THEN the employee should be deleted  
+
+## Environments:
+Browsers to be tested: Chrome, Firefox and IE  
+Mobile: Android, iOS
+
+## Test Steps:
+| Steps#|Test Steps|Test Data|Expected|Result|Comments|
+|-------|:---------|:--------|:-------|:-----|:-------|
+| 1 |Open app URL and Login|username: testUser  password: Test1234|App loads, login successful and lands on Benefits page|PASS||
+| 2 |Clcik on Add Employee button||Modal Dialog appears with input fields - First Name, Last Name, Dependents|PASS||
+| 3 |Enter employee details with first name begins with "a" and click Submit|First Name: anton  Last Name:Smith  Dependents 1|Row aded and Benefits Cost for that employee is "51.92"|PASS||
+| 4 |Click on Delete button (X under Actions) on the row with First Name Zack||That employee should be deleted|FAIL|Issue#4 - Delete does not work|
+| 5 |Click on Delete button (X under Actions) on the row with First Name anton||That employee should be deleted|FAIL|Issue#4 - Delete does not work|
+
+## Pass/Fail criteria:
+Pass - All steps work as expected  
+Fail - One or more steps do not work as expected
+## Result: PASS
