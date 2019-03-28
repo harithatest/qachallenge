@@ -17,12 +17,12 @@ Here is what I was aiming to demenstrate:
 
 ## Manual Testing
 Manual test cases are included in /manual/tests folder.    
-https://github.com/harithatest/qachallenge/tree/master/manual/tests
+https://github.com/harithatest/qachallenge/tree/master/manual/tests  
 I wrote the test cases in .md files for accessibility and readability  
 
 ## Automation Testing
 Automation tests can be found in /automation folder  
-https://github.com/harithatest/qachallenge/tree/master/automation
+https://github.com/harithatest/qachallenge/tree/master/automation  
 Test framework: TestNG  
 Browser automation: Selenium Webdriver  
 Browser driver: Chrome  
@@ -35,7 +35,7 @@ Results: Not all tests will pass as some buttons were non-interactable for me (I
 
 ## Issues
 Key issues I found are listed in Issues section of this repository  
-https://github.com/harithatest/qachallenge/issues
+https://github.com/harithatest/qachallenge/issues  
 
 ## Improvements on Test Automation
 If I had more time I would work on the following areas to improve test stability and easy maintanance  
