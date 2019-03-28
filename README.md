@@ -1,1 +1,3 @@
 # qachallenge
+## Manual
+## Automation
