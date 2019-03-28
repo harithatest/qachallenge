@@ -17,7 +17,7 @@ Here is what I was aiming to demenstrate:
 
 ## Manual Testing
 Manual test cases are included in /manual/tests folder.    
-I simply wrote the test cases in .md files for easy accessibility and readability  
+I wrote the test cases in .md files for accessibility and readability  
 
 ## Automation Testing
 Automation tests can be found in /automation folder  
@@ -36,7 +36,7 @@ Some of the issues I found are listed in Issues section of this repository
 
 ## Improvements on Test Automation
 If I had more time I would work on the following areas to improve test stability and easy maintanance  
--- Error/Exception handling  
+-- Fail fast mechanism if necessary  
 -- Proper logging and reporting  
 -- Timing issues (use these methods in areas of concern -  eg: WaitForPageLoads, WaitForElementPresent etc)  
 -- Build a CI/CD pipeline with jenkins which includes testNg test reporting  
