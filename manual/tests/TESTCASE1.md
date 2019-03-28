@@ -1,8 +1,9 @@
-##Title: Login Tests
+## Title: 
+Login Tests
 ## Description: 
 Test the login feature of Employee Benefits app.
 ## Environments:
-Browsers to be tested: Chrome, Firefox and IE
+Browsers to be tested: Chrome, Firefox and IE  
 Mobile: Android, iOS
 ## Test Steps:
 | Steps#|Test Steps|Test Data|Expected|Result|
